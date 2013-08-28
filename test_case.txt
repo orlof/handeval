@@ -1,0 +1,465 @@
+﻿GAME #Sökö test straightflush
+*** SHOW DOWN ***
+quads:         [DA CA HA SA DK]
+fullhouse:     [DA CA HA DK CK]
+flush:         [DA DK DQ DJ D9]
+straight:      [DA DK DQ DJ CT]
+set:           [DA CA HA DK DQ]
+straightflush: [DA DK DQ DJ DT]
+twopair:       [DA CA DK CK DQ]
+fourflush:     [DA DK DQ DJ C9]
+fourstraight:  [DA DK DQ CJ C9]
+pair:          [DA CA DK DQ CT]
+highcard:      [DA DK DQ CT C9]
+*** SUMMARY ***
+straightflush: wins
+
+GAME #Sökö test quads
+*** SHOW DOWN ***
+fullhouse:     [DA CA HA DK CK]
+flush:         [DA DK DQ DJ D9]
+straight:      [DA DK DQ DJ CT]
+set:           [DA CA HA DK DQ]
+quads:         [DA CA HA SA DK]
+twopair:       [DA CA DK CK DQ]
+fourflush:     [DA DK DQ DJ C9]
+fourstraight:  [DA DK DQ CJ C9]
+pair:          [DA CA DK DQ CT]
+highcard:      [DA DK DQ CT C9]
+*** SUMMARY ***
+quads: wins
+
+GAME #Sökö test fullhouse
+*** SHOW DOWN ***
+flush:         [DA DK DQ DJ D9]
+straight:      [DA DK DQ DJ CT]
+set:           [DA CA HA DK DQ]
+twopair:       [DA CA DK CK DQ]
+fullhouse:     [DA CA HA DK CK]
+fourflush:     [DA DK DQ DJ C9]
+fourstraight:  [DA DK DQ CJ C9]
+pair:          [DA CA DK DQ CT]
+highcard:      [DA DK DQ CT C9]
+*** SUMMARY ***
+fullhouse: wins
+
+GAME #Sökö test flush
+*** SHOW DOWN ***
+straight:      [DA DK DQ DJ CT]
+set:           [DA CA HA DK DQ]
+twopair:       [DA CA DK CK DQ]
+flush:         [DA DK DQ DJ D9]
+fourflush:     [DA DK DQ DJ C9]
+fourstraight:  [DA DK DQ CJ C9]
+pair:          [DA CA DK DQ CT]
+highcard:      [DA DK DQ CT C9]
+*** SUMMARY ***
+flush: wins
+
+GAME #Sökö test straight
+*** SHOW DOWN ***
+set:           [DA CA HA DK DQ]
+twopair:       [DA CA DK CK DQ]
+fourflush:     [DA DK DQ DJ C9]
+fourstraight:  [DA DK DQ CJ C9]
+pair:          [DA CA DK DQ CT]
+highcard:      [DA DK DQ CT C9]
+straight:      [DA DK DQ DJ CT]
+*** SUMMARY ***
+straight: wins
+
+GAME #Sökö test set
+*** SHOW DOWN ***
+set:           [DA CA HA DK DQ]
+twopair:       [DA CA DK CK DQ]
+fourflush:     [DA DK DQ DJ C9]
+fourstraight:  [DA DK DQ CJ C9]
+pair:          [DA CA DK DQ CT]
+highcard:      [DA DK DQ CT C9]
+*** SUMMARY ***
+set: wins
+
+GAME #Sökö test twopair
+*** SHOW DOWN ***
+fourflush:     [DA DK DQ DJ C9]
+fourstraight:  [DA DK DQ CJ C9]
+twopair:       [DA CA DK CK DQ]
+pair:          [DA CA DK DQ CT]
+highcard:      [DA DK DQ CT C9]
+*** SUMMARY ***
+twopair: wins
+
+GAME #Sökö test fourflush
+*** SHOW DOWN ***
+fourstraight:  [DA DK DQ CJ C9]
+fourflush:     [DA DK DQ DJ C9]
+pair:          [DA CA DK DQ CT]
+highcard:      [DA DK DQ CT C9]
+*** SUMMARY ***
+fourflush: wins
+
+GAME #Sökö test fourstraight
+*** SHOW DOWN ***
+pair:          [DA CA DK DQ CT]
+fourstraight:  [DA DK DQ CJ C9]
+highcard:      [DA DK DQ CT C9]
+*** SUMMARY ***
+fourstraight: wins
+
+GAME #Sökö test pair
+*** SHOW DOWN ***
+pair:          [DA CA DK DQ CT]
+highcard:      [DA DK DQ CT C9]
+*** SUMMARY ***
+pair: wins
+
+GAME #Sökö test different straightflushes
+*** SHOW DOWN ***
+p1:      [DK DQ DJ DT D9]
+p2:      [DA DK DQ DJ DT]
+p3:      [D5 D4 D3 D2 DA]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different quads
+*** SHOW DOWN ***
+p1:      [DA CA HA SA DK]
+p2:      [DA CK HK SK DK]
+p3:      [D2 C2 H2 S2 DA]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test different fullhouses
+*** SHOW DOWN ***
+p1:      [DQ CQ HQ DA CA]
+p2:      [DK CK HK DQ CQ]
+p3:      [DK CK HK DJ CJ]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different flushes
+*** SHOW DOWN ***
+p1:      [D9 D8 D7 D6 D5]
+p2:      [D9 D8 D7 D6 DT]
+p3:      [DA D5 D4 D3 D2]
+*** SUMMARY ***
+p3: wins
+
+GAME #Sökö test different straights
+*** SHOW DOWN ***
+p1:      [D2 D3 D4 C5 C6]
+p2:      [DA D2 D3 D4 C5]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test different sets
+*** SHOW DOWN ***
+p1:      [DA CA HA S4 S2]
+p2:      [DK CK HK SQ DJ]
+p3:      [DA CA HA S4 S3]
+*** SUMMARY ***
+p3: wins
+
+GAME #Sökö test different twopair
+*** SHOW DOWN ***
+p1:      [DA CA D2 C2 D8]
+p2:      [DK CK DQ CQ DJ]
+p3:      [DA CA D2 C2 D7]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test different fourflush
+*** SHOW DOWN ***
+p1:      [DA DK DQ D9 C9]
+p2:      [DA DK DQ DT CA]
+p3:      [DA D5 D4 D3 CA]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different fourstraight
+*** SHOW DOWN ***
+p1:      [DK DQ DJ CT C8]
+p2:      [DK DQ DJ CT CK]
+p3:      [DA D2 D3 C4 CA]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different pair
+*** SHOW DOWN ***
+p1:      [D7 C7 DK CQ CA]
+p2:      [D7 C7 DK CQ C9]
+p3:      [D8 D8 D3 C4 C5]
+*** SUMMARY ***
+p3: wins
+
+GAME #Sökö test different highcards
+*** SHOW DOWN ***
+p1:      [D5 D6 C7 C9 CT]
+p2:      [D2 D4 D5 C7 CA]
+p3:      [D3 D4 D5 C7 CA]
+p4:      [DK DQ DJ C9 C8]
+*** SUMMARY ***
+p3: wins
+
+GAME #Sökö test equal fourstraight
+*** SHOW DOWN ***
+p1:      [D5 C6 H7 S8 CA]
+p2:      [D5 C6 S7 H8 CA]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
+GAME #Sökö test different fourstraight
+*** SHOW DOWN ***
+p1:      [D8 C7 H6 S5 CA]
+p2:      [D2 C3 H4 S5 CA]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test equal fourflush
+*** SHOW DOWN ***
+p1:      [D5 D6 D7 D9 H9]
+p2:      [H5 H6 H7 H9 D9]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
+GAME #Sökö test different fourflush
+*** SHOW DOWN ***
+p1:      [D2 D3 D4 DK CT]
+p2:      [D2 D4 DJ DQ CT]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test different fourflush
+*** SHOW DOWN ***
+p1:      [D2 D9 DT DK CT]
+p2:      [D2 D3 DJ DK CT]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different fourflush
+*** SHOW DOWN ***
+p1:      [D2 D3 DQ DK CT]
+p2:      [D2 D4 DQ DK CT]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different fourflush
+*** SHOW DOWN ***
+p1:      [D2 D4 DQ DK CT]
+p2:      [D3 D4 DQ DK CT]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test fourflush vs fourstraight
+*** SHOW DOWN ***
+p1:      [D2 D3 D4 D5 CT]
+p2:      [D4 D5 H6 S7 CT]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test fourstaight vs pair
+*** SHOW DOWN ***
+p1:      [D4 D5 H6 S7 CT]
+p2:      [D4 CT H6 SA CA]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test fourflush vs pair
+*** SHOW DOWN ***
+p1:      [D2 D3 D4 D6 CT]
+p2:      [D2 D3 H9 DT CT]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test different fourstaight vs two pair
+*** SHOW DOWN ***
+p1:      [D4 D5 H6 S7 CT]
+p2:      [D4 C4 H6 S6 CT]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different fourflush vs two pair
+*** SHOW DOWN ***
+p1:      [D2 D3 D4 D6 CT]
+p2:      [D2 C2 D4 S4 CT]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test fourstaight vs straight
+*** SHOW DOWN ***
+p1:      [D2 C3 H4 S5 C6]
+p2:      [S5 C6 S7 C8 DK]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test fourflush vs flush
+*** SHOW DOWN ***
+p1:      [D2 D3 D4 D6 D8]
+p2:      [D4 D6 D8 DK CA]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test different fourstaight
+*** SHOW DOWN ***
+p1:      [D6 C7 H8 S9 CK]
+p2:      [S5 D6 C7 H8 CK]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test equal fourstaight with different high
+*** SHOW DOWN ***
+p1:      [D6 C7 H8 S9 CK]
+p2:      [D6 C7 H8 S9 CQ]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test equal fourflush with different high
+*** SHOW DOWN ***
+p1:      [D4 D6 D8 DK CK]
+p2:      [D4 D6 D8 DK CQ]
+*** SUMMARY ***
+p1: wins
+
+GAME #Sökö test different high
+*** SHOW DOWN ***
+p1:      [D5 C7 H9 SJ CQ]
+p2:      [D5 C7 H9 SJ CK]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different high
+*** SHOW DOWN ***
+p1:      [D5 C7 H9 SJ CK]
+p2:      [D5 C7 H9 SQ CK]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different high
+*** SHOW DOWN ***
+p1:      [D5 C7 H9 SJ CK]
+p2:      [D5 C7 HT SJ CK]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different high
+*** SHOW DOWN ***
+p1:      [D5 C7 H9 SJ CK]
+p2:      [D5 C8 H9 SJ CK]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test different high
+*** SHOW DOWN ***
+p1:      [D5 C7 H9 SJ CK]
+p2:      [D6 C7 H9 SJ CK]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test equal pair different high 
+*** SHOW DOWN ***
+p1:      [D7 C7 H9 SJ CQ]
+p2:      [D7 C7 H9 SJ CK]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test equal pair different high 
+*** SHOW DOWN ***
+p1:      [D7 C7 H9 SJ CK]
+p2:      [D7 C7 H9 SQ CK]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test equal pair different high 
+*** SHOW DOWN ***
+p1:      [D7 C7 H9 SJ CK]
+p2:      [D7 C7 HT SJ CK]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test equal twopair different high 
+*** SHOW DOWN ***
+p1:      [D2 C2 H7 S7 CT]
+p2:      [D2 C2 H7 S7 CA]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test fullhouse 
+*** SHOW DOWN ***
+p1:      [D2 C2 H2 S4 C4]
+p2:      [D2 C2 C4 S4 H4]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test fullhouse 
+*** SHOW DOWN ***
+p1:      [D2 C2 H2 ST CT]
+p2:      [D2 C2 S2 HA CA]
+*** SUMMARY ***
+p2: wins
+
+GAME #Sökö test equal straightflush
+*** SHOW DOWN ***
+p1:      [H7 H8 H9 HT HA]
+p2:      [H7 H8 H9 HT HA]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
+GAME #Sökö test equal flush
+*** SHOW DOWN ***
+p1:      [S2 S4 S7 S9 ST]
+p2:      [S2 S4 S7 S9 ST]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
+GAME #Sökö test equal straight
+*** SHOW DOWN ***
+p1:      [D4 C5 H6 S7 C8]
+p2:      [D4 C5 H6 S7 H8]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
+GAME #Sökö test equal twopair
+*** SHOW DOWN ***
+p1:      [D2 C2 H8 S8 CT]
+p2:      [H2 C2 D8 S8 CT]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
+GAME #Sökö test equal fourflush
+*** SHOW DOWN ***
+p1:      [D2 D4 D6 D8 HT]
+p2:      [D2 D4 D6 D8 ST]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
+GAME #Sökö test equal fourstraight
+*** SHOW DOWN ***
+p1:      [D2 C3 H4 S5 CT]
+p2:      [H2 C3 D4 S5 CT]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
+GAME #Sökö test equal pair
+*** SHOW DOWN ***
+p1:      [D2 C2 H7 S9 CT]
+p2:      [D2 C2 S7 H9 CT]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
+GAME #Sökö test equal high
+*** SHOW DOWN ***
+p1:      [D4 C5 H7 ST CQ]
+p2:      [C4 D5 H7 ST CQ]
+*** SUMMARY ***
+p1: wins
+p2: wins
+
