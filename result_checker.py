@@ -146,16 +146,16 @@ class SokoLogic(GameLogic):
         # read until summary title concludes the showdown
         while u'*** SUMMARY ***' not in parser.cline:
             # skip mucked hands
-            if u'(mucked)' not in parser.cline:
-                try:
-                    player = parser.before(':')
+            # if u'(mucked)' not in parser.cline:
+            try:
+                player = parser.before(':')
 
-                    cards = parser.between('[', ']')
-                    hand = Hand.from_str(cards)
+                cards = parser.between('[', ']')
+                hand = Hand.from_str(cards)
 
-                    hands.append((hand, player))
-                except ValueError:
-                    pass
+                hands.append((hand, player))
+            except ValueError:
+                pass
 
             # hand processed -> advance to next line
             parser.read_line()
